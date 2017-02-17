@@ -1,3 +1,6 @@
 {
-  "name": "poe-filter"
+  "name": "poe-filter",
+  "dependencies": {
+    "request": "2"
+   }
 }
