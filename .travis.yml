@@ -10,4 +10,3 @@ deploy:
   file: ./output.txt
   on:
     repo: timeinfeldt/poe-filter
-    overwrite: true
