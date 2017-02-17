@@ -1,6 +1,6 @@
 {
   "name": "poe-filter",
   "scripts": {
-    "test": "test.js"
+    "test": "./test.js"
   }
 }
