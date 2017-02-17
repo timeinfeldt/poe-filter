@@ -6,3 +6,6 @@ node_js:
 
 before_install:
  - chmod +x ./test.js
+
+install:
+  - npm install
