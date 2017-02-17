@@ -12,3 +12,4 @@ deploy:
   file: ./output.txt
   on:
     repo: timeinfeldt/poe-filter
+    tags: true
