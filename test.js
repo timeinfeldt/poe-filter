@@ -1,11 +1,14 @@
 var fs = require('fs');
 
 function readWriteSync() {
-  var newValue = 'NEW VALUE';
+  var data = fs.readFileSync('output.txt', 'utf-8');
 
-  fs.writeFileSync(__dirname + '/output.txt', newValue, 'utf-8');
+  console.log('data is: ' + data);
+
+  var newValue = 'new value';
+
+  fs.writeFileSync('output.txt', newValue, 'utf-8');
 
   console.log('readFileSync complete');
 }
-
 readWriteSync();
