@@ -1,17 +1,13 @@
 language: node_js
-
-# test on two node.js versions: 0.6 and 0.8
 node_js:
-  - node
-
+- node
 before_install:
- - chmod +x ./test.js
-
+- chmod +x ./test.js
 script:
- - node ./test.js
-
+- node ./test.js
 deploy:
   provider: releases
-  api_key: "059b13d20efecb618f71961d29044f27b362f3ab"
+  api_key:
+    secure:K/hMGXcT/Umm/s6khW43IMJhdUEKYW9aMHE6msYMicj58gdg650baDc0dO8fb7KKTmD0UhngPRRQr5fyiiZkax3lYi/D7O5dzMfkH7Wky8gvkU5iyHO0kfgJoUsqec0SQlXIcBTW+Djk31HmqSkTqUhlVoIm3P/zLWLO3zKPwrwq4y6qR4ZSTj8CxAfnX9uJpZwra32nSmCK+PcSImae4ttdIfKWXH2KvqyCub7E/FC9F7J1bWjgSNUVOq87bNNKuqRMPeCeu6L5sDSFlju6OQtDZBoJS/mrONKiGVf4/2FuYOW6DgrcjEQfBDvlhSIC0HVo/P8B4pvB8f0ULCkmg4yf9Zf9Pm0SY5a7kOar4YENl68deigH/7+iJxUg6a6ASzIYIV2bP/YIhGTGZk1SkZMEeyD34nHdNLV00uXzQqJ1FR05Hi6wskmiqN1HeydI/WtmqfOqyqVXTEl+YshZ360wadoKlix6TwAf0zS8mpd2sZ6n856YYnugwKEaGmxzwFEw/n0gLN2zXeAQ0Hzilo3csiAB1dXoO3L0wmUD7++yNyiNPo6OrGM2eWnZph9anPvlFjrjTuYSum1BdEsVq5TcIr0bfkGbD03AOFfv5A31dmYjp7Wxu6ECTQYAYv9asNfmf8Kte4kSR8iXf2zvBCOnRzoXmgq7JR8HEssKSTA=
   file: "./output.txt"
   skip_cleanup: true
