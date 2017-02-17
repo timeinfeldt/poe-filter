@@ -7,6 +7,6 @@ deploy:
   provider: releases
   api_key:
     secure: b6puzneH0ctewOhGNTH3zfYjXE68+lKQPUXW6EpdZNMscr+p9TGZfiomVh8W4mSJrMCDZh2SQ23jscZFS5wLp06LfjMXTCHtXo+5nDdg0Nd0ptU7zx9NYX+pRTKVcDI6LOtia7FC/C5ZLGYVgWwnNhz/CLUKws7XrpOkjm0+XAHxRNdRTd750Ws3+c178TU8tcppLX1m5v83TM2jAb0gl9WOfJHBoUEg0aMbg8Z5/4P++Zb0JV6qegicZI6oieZE6pVyuxxWh8wCGPt77QA6yj7Ly5/6mTD/KhnrS64Vq2AZnCApdyEtC7gtOPTMAwCMiskQWDAtOpSfPOl4FS7B+kC8SrAoIexfN42OrdipSZ84FR82rV0imFmJz5H+A6IUhwFx9G/3dliN9yG2IEI+mYUdj89a/l+SUf8cUdVaExYVjP04N5nchE4muikIf69rGlDuP+FwiWdj6E+p4UMvDcBAJ1O8RJ1JJhiyB0Au6K9eLHGbq1eWeaJxvUIRe7ezh+nM3H8+qLnWssa6irog5GkBfYot5O79xFN2DIGwopG+bIxMDOK8LTtNkmuQPiIpmShdcbjaabtJN396OWLMEYnkuuYQJ0dU9CnvIPmGHIdW0wJ536AO6AISn86eDqpExOUbMCZAMzkgjGwPjd9VO7WV/aKjNfYEJssqeoP6zio=
-  file: ./output.txt
+  file: output.txt
   on:
     repo: timeinfeldt/poe-filter
