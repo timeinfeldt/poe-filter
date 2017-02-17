@@ -15,5 +15,3 @@ deploy:
   api_key: "6c8fef4ce4befc4310df1715644e139580268ef3"
   file: "./output.txt"
   skip_cleanup: true
-  on:
-    tags: true
