@@ -1,8 +1,13 @@
 var fs = require('fs');
-fs.writeFile("./output.txt", "kek", function(err) {
-    if(err) {
-        return console.log(err);
-    }
 
-    console.log("The file was saved!");
-});
+function readWriteSync() {
+  var data = fs.readFileSync('./output.txt', 'utf-8');
+
+  var newValue = 'KEK';
+
+  fs.writeFileSync('filelistSync.txt', newValue, 'utf-8');
+
+  console.log('readFileSync complete');
+}
+
+readWriteSync();
