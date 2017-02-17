@@ -8,4 +8,4 @@ function readWriteSync() {
   console.log('readFileSync complete');
 }
 
-readWriteSync();
+//readWriteSync();
