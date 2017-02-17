@@ -4,16 +4,16 @@ var fs = require('fs');
 
 function readWriteSync() {
   var data = fs.readFileSync(__dirname + '/output.txt', 'utf-8');
-  submitData();
+  submitData(data);
 }
 
 
-function submitData() {
+function submitData(data) {
 
 
 request.post(
     'https://hooks.zapier.com/hooks/catch/1988398/mmzf0m/',
-    { json: { key: 'value 2' } },
+    { json: { 'data': data } },
     function (error, response, body) {
         if (!error && response.statusCode == 200) {
             console.log(body)
