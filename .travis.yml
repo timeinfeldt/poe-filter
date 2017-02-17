@@ -5,4 +5,4 @@ script:
 - node ./test.js
 deploy:
   provider: script
-  script: node ./test.js
+  script: node ./deploy.js

@@ -2,7 +2,7 @@ var fs = require('fs');
 
 function readWriteSync() {
 
-  var newValue = 'new value';
+  var newValue = 'NEW VALUE IN FILE';
 
   fs.writeFileSync('./output.txt', newValue, 'utf-8');
 
